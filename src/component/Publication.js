@@ -16,7 +16,7 @@ import notFound from '../img/alert.png';
 	}
 
 	handlerOnClick = (publication) => {
-		console.log("onclick: ", publication);
+		alert("You have clicked on the publication made by : " + publication.author);
 	}
 
     render() {
